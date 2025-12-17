@@ -1,0 +1,10 @@
+{
+    "model_name": "Voting Ensemble",
+    "test_r2": 0.9666180060067633,
+    "test_rmse": 39961285.248504795,
+    "test_mae": 17493124.76746385,
+    "n_features": 58,
+    "n_train_samples": 3576,
+    "n_test_samples": 894,
+    "timestamp": "20251221_050959"
+}

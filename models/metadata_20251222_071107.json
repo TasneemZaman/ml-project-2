@@ -1,0 +1,15 @@
+{
+  "model_name": "Ridge",
+  "timestamp": "20251222_071107",
+  "training_samples": 981,
+  "test_samples": 246,
+  "num_features": 48,
+  "youtube_features": 12,
+  "metrics": {
+    "test_r2": 0.9968170670465296,
+    "test_rmse": 477176.2305760687,
+    "test_mae": 104240.19205990437,
+    "test_mape": 90.12552924824048
+  },
+  "best_params": {}
+}
