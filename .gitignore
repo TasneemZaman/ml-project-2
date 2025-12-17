@@ -21,6 +21,7 @@ wheels/
 *.egg
 
 # Virtual Environment
+.venv/
 venv/
 env/
 ENV/
@@ -38,13 +39,28 @@ ENV/
 # Environment variables
 .env
 
-# Data (optional - comment out if you want to track data)
-data/raw/*.csv
-data/processed/*.csv
+# Data files
+data/
+*.csv
 
-# Models (optional - comment out if you want to track models)
-models/*.pkl
+# Models
+models/
 
-# Results (optional)
-results/*.png
-results/*.html
+# Results
+results/
+
+# Backup files and folders
+backup_docs/
+backup_notebooks/
+scripts/backup/
+scripts/archive/
+
+# Log files
+*.log
+
+# CatBoost info
+catboost_info/
+
+# Progress files
+collection_progress.txt
+data_enrichment_plan.txt
